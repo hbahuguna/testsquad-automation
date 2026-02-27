@@ -1,0 +1,4 @@
+target_repo: hbahuguna/testsquad
+test_frameworks:
+  e2e: playwright
+  unit: pytest
