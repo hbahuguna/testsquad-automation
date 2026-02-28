@@ -1,0 +1,51 @@
+{
+  "pr_id": "1",
+  "tests_reused": [],
+  "tests_generated": [],
+  "generated_tests_full": [],
+  "coverage_delta": null,
+  "ci_runtime_seconds": 0.01,
+  "status": "pass",
+  "commit_hash": null,
+  "pr_number": null,
+  "events": [
+    {
+      "type": "INIT",
+      "repo_hash": "a7112113eba380955abd778692b1998d0132136d42ed87d7179e26fa8e7e1e15",
+      "summary": "Computed repo hash: a7112113eba380955abd778692b1998d0132136d42ed87d7179e26fa8e7e1e15"
+    },
+    {
+      "type": "FSM_TRANSITION",
+      "from_state": "INIT",
+      "to_state": "PLAN",
+      "summary": "Initializing context for PR #1 and analyzing repository structure.",
+      "content": "Base SHA: None\nHead SHA: None\nProduct Repo: /var/folders/jb/zzkfg8bj33gdz7vmmlmw7jq80000gn/T/tmpbpnv4hs5"
+    },
+    {
+      "type": "SYMBOL_DISCOVERY",
+      "symbols": [
+        "calculate_total",
+        "process_order"
+      ],
+      "summary": "Discovered 2 changed symbols."
+    },
+    {
+      "type": "TEST_DISCOVERY",
+      "test_count": 2,
+      "summary": "Discovered 2 existing tests."
+    },
+    {
+      "type": "FSM_TRANSITION",
+      "from_state": "PLAN",
+      "to_state": "EXECUTE",
+      "summary": "Generating new tests for 0 uncovered code changes and verifying 0 existing tests.",
+      "content": "Uncovered Symbols: []\nExisting Tests to Verify: []"
+    },
+    {
+      "type": "FSM_TRANSITION",
+      "from_state": "EXECUTE",
+      "to_state": "COMPLETE",
+      "summary": "Analysis completed. Tests identified/generated for user review."
+    }
+  ]
+}
