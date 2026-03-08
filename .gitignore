@@ -1,0 +1,16 @@
+node_modules/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+test-results/
+playwright-report/
+*.log
+.last-run.json
+ui/node_modules/
+ui/test-results/
+ui/playwright-report/
+api/node_modules/
+api/test-results/
+api/playwright-report/
